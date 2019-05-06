@@ -1,0 +1,65 @@
+<div class="div-body">
+  <div class="div-title">
+    <span>ng-zorro 日历功能（nz-calendar）示例：</span>
+    <span>七天连锁酒店标间价格房价日历图示：</span>
+  </div>
+  <div class="div-colors">
+    <div class="color-item">
+      <div style="background-color: #dbf29e"></div>
+      <span>平日价</span>
+    </div>
+    <div class="color-item">
+      <div style="background-color: #9ef2ef"></div>
+      <span>周末价</span>
+    </div>
+    <div class="color-item">
+      <div style="background-color: #ffaa69"></div>
+      <span>节假日价</span>
+    </div>
+    <div class="color-item">
+      <div style="background-color: #ffcce9"></div>
+      <span>自定义价</span>
+    </div>
+  </div>
+  <div class="div-calendar">
+    <div class="div-calendar-item" *ngFor="let month of monthList">
+      <div class="calendar-head">
+        <div>
+          <span>{{month|date:'yyyy'}}年</span>
+          <span>{{month|date:'MM'}}月</span>
+        </div>
+      </div>
+      <nz-calendar [(ngModel)]="month" [nzDateFullCell]="dateCellTpl">
+      </nz-calendar>
+    </div>
+  </div>
+</div>
+
+
+<ng-template #dateCellTpl let-date>
+  <div class="{{getPriceClass(date)}}" [hidden]="" (click)="priceClick(date)">
+    <span>{{ date | date:'d'}}</span>
+    <br />
+    <span style="color: red;font-size: 12px" class="span-price">￥{{getPrice(date)}}</span>
+  </div>
+</ng-template>
+
+
+<nz-modal [(nzVisible)]="isShowDetail" nzTitle="房价详情" nzWidth="430px" (nzOnCancel)="isShowDetail=false"
+  [nzFooter]="null" nzMaskClosable="false">
+  <div>
+    <p>
+      <span>日期</span>
+      <input nz-input readonly [value]="detailPrice?.date">
+    </p>
+    <p>
+      <span>类型</span>
+      <input nz-input readonly [value]="detailPrice?.type">
+    </p>
+    <p>
+      <span>价格</span>
+      <input nz-input readonly [value]="detailPrice?.price">
+    </p>
+
+  </div>
+</nz-modal>
