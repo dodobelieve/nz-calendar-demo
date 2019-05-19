@@ -11,10 +11,10 @@
 ## 实现效果
 
 价格日历效果：  
-![Image text](https://raw.githubusercontent.com/dodobelieve/nz-calendar-demo/master/src/assets/img/main.png)  
+![Image text](https://github.com/dodobelieve/nz-calendar-demo/blob/master/src/assets/img/main.png)  
 
 点击日期格弹出框效果：  
-![Image text](https://raw.githubusercontent.com/dodobelieve/nz-calendar-demo/master/src/assets/img/detail.png)  
+![Image text](https://github.com/dodobelieve/nz-calendar-demo/blob/master/src/assets/img/detail.png)  
 
 ## 主要代码
 
@@ -23,7 +23,7 @@
 [calendar.component.css](https://github.com/dodobelieve/nz-calendar-demo/blob/master/src/app/pages/calendar/calendar.component.css)    
 [calendar.component.ts](https://github.com/dodobelieve/nz-calendar-demo/blob/master/src/app/pages/calendar/calendar.component.ts)    
 
-模拟数据：
+模拟数据：  
 [price.service.ts](https://github.com/dodobelieve/nz-calendar-demo/blob/master/src/app/services/price.service.ts)    
 
 ## Development server
