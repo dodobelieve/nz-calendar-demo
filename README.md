@@ -3,10 +3,10 @@
 
 > angular ng-zorro 日历功能演示
 
-## 参考文档
+## 参考文档 Reference
 
 [ng-zorro:calendar:中文](https://ng.ant.design/components/calendar/zh)  
-[ng-zorro:calendar:中文](https://ng.ant.design/components/calendar/en)  
+[ng-zorro:calendar:english](https://ng.ant.design/components/calendar/en)  
 
 ## 实现效果
 
@@ -18,7 +18,7 @@
 
 ## 主要代码
 
-页面代码：
+页面代码：  
 [calendar.component.html](https://github.com/dodobelieve/nz-calendar-demo/blob/master/src/app/pages/calendar/calendar.component.html)    
 [calendar.component.css](https://github.com/dodobelieve/nz-calendar-demo/blob/master/src/app/pages/calendar/calendar.component.css)    
 [calendar.component.ts](https://github.com/dodobelieve/nz-calendar-demo/blob/master/src/app/pages/calendar/calendar.component.ts)    
