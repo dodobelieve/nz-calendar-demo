@@ -29,6 +29,7 @@
     height: auto;
     font-size: 16px;
     padding-left: 15px;
+    float: left;
 }
 
 .color-item>div {
@@ -49,14 +50,14 @@
 }
 
 .div-calendar {
-    margin-top: 200px;
+    float: left;
+    margin-top: 20px;
     margin-left: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
-    height: 500px;
-    overflow-y: auto;
+    height: auto;
 }
 
 .div-calendar-item {
