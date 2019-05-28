@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CalendarComponent } from './pages/calendar/calendar.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'signin', pathMatch: 'full' },
+  { path: '', redirectTo: 'calendar', pathMatch: 'full' },
 
   { path: 'calendar', component: CalendarComponent },
 ];
