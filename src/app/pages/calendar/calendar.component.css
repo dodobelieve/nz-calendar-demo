@@ -9,7 +9,7 @@
 .div-title {
     float: left;
     width: 100%;
-    height: 90px;
+    height: auto;
     margin: 20px;
 }
 
@@ -47,6 +47,7 @@
 .color-item {
     float: left;
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .div-calendar {
@@ -63,14 +64,14 @@
 .div-calendar-item {
     float: left;
     height: 380px;
-    width: 416px;
+    width: 400px;
     background-color: #fff5ec;
     margin-bottom: 40px;
 }
 
 .calendar-head {
     height: 55px;
-    width: 416px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
