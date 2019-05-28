@@ -9,7 +9,7 @@
 [ng-zorro-calendar:english](https://ng.ant.design/components/calendar/en)   
 
 ## 演示地址  
-[https://dodobelieve.github.io/nz-calendar-demo/calendar](https://dodobelieve.github.io/nz-calendar-demo/calendar) 
+[https://dodobelieve.github.io/nz-calendar-demo](https://dodobelieve.github.io/nz-calendar-demo) 
 
 ## 实现效果
 
